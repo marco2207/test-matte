@@ -1,0 +1,22 @@
+{
+    "name": "test-matte",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "test-matteo": "github:marco2207/test-matteo#5a0a1ff04d013c70fc986f3a9a6dc2fed3444288"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
